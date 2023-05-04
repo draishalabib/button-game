@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+.type {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 3rem;
+  margin: 2%;
+  color: black;
+}
+.container1 {
+  width: 50%;
+  margin: auto;
+}
+.button {
+  margin: 25px;
+  display: inline-block;
+  font-family: "Cedarville Cursive", cursive;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  transition: 0.15s;
+}
+
+.button-red {
+  background-color: red;
+}
+
+.button-green {
+  background-color: green;
+}
+
+.button-yellow {
+  background-color: yellow;
+}
+
+.button-blue {
+  background-color: blue;
+}
+
+.start-button {
+  margin-top: auto;
+  padding: 0 30px;
+  background-color: rgb(0, 255, 255);
+  color: black;
+  font-family: "Cedarville Cursive", cursive;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: rgb(147, 184, 80);
+  border-color: black;
+}
+.btn {
+  margin-left: 1100px;
+}
+.btn1 {
+  margin-right: 1100px;
+}
+.unclickable {
+  pointer-events: none;
+}
+.activated {
+  transform: translateY(10px);
+  box-shadow: 0 0 10px white;
+  background-color: grey;
+}
+.button:active {
+  box-shadow: 0 0 10px white;
+  background-color: grey;
+}

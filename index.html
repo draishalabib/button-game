@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Button_Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <button class="btn start-button js-start">start!</button>
+        <button class="btn1 start-button js-again">reset game!</button>
+      </header>
+      <h1 class="type js-type">Press Start !</h1>
+      <section class="container js-container">
+        <div class="container1">
+          <button class="button button-red" data-tile="red"></button>
+          <button class="button button-green" data-tile="green"></button>
+          <button class="button button-blue" data-tile="blue"></button>
+          <button class="button button-yellow" data-tile="yellow"></button>
+        </div>
+      </section>
+    </main>
+
+    <div class="hidden">
+      <audio src="sounds/blue.mp3" data-sound="blue"></audio>
+      <audio src="sounds/green.mp3" data-sound="green"></audio>
+      <audio src="sounds/red.mp3" data-sound="red"></audio>
+      <audio src="sounds/yellow.mp3" data-sound="yellow"></audio>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
